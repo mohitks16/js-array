@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arrayOld = [1,2,3,4,5];
+        var arrayNew = [6,7,8,9];
+        var arrayMerged = [];
+        // console.log(arrayOld.concat(arrayNew));
+        for(var i = 0 ; i<arrayOld.length;i++){
+            arrayMerged.push(arrayOld[i]);
+        }
+        for(var j = 0 ; j < arrayNew.length ; j++){
+            arrayMerged.push(arrayNew[j]);
+        }
+        document.write('<h2>merging the array [1,2,3,4,5] and [6,7,8,9] we will get <h1>['+arrayMerged+']</h1> </h2>')
+        console.log(arrayMerged);
+    </script>
+</body>
+</html>

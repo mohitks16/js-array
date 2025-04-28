@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = [1,2,3,4];
+        var b = [3,4,5,6];
+        var c = [];
+        for(i=0;i<a.length;i++){
+            if(c.includes(a[i])){
+               
+            }else{
+                c.push(a[i]);
+            }
+        }
+        for(j=0;j<b.length;j++){
+            if(c.includes(b[j])){
+                
+            }else{
+                c.push(b[j])
+            }
+        } 
+        document.write('<h2>the intersection of a = [1,2,3,4] and b = [3,4,5,6] is <h1>['+c+']<h1><h2>')
+        console.log(c);
+
+    </script>
+</body>
+</html>
